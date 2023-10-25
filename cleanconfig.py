@@ -19,10 +19,6 @@ outtext = ""
 for line in inlines:
 	split = line.split("=", 1)
 
-	if line == "\n" * len(line):
-		outtext += line
-		continue
-
 	outtext += split[0]
 
 	if len(split) > 1:
@@ -41,6 +37,7 @@ outtext += "\n" + "# CHANGED FOR GITHUB ACTIONS!" + "\n"
 outtext += "port =" + "\n"
 outtext += "secure.http_mods =" + "\n"
 outtext += "server_announce = false" + "\n"
+outtext += "archtec.ci = true" + "\n"
 
 outfile.write(outtext)
 
