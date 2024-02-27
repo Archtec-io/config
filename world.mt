@@ -309,5 +309,6 @@ load_mod_worldedit_gui = true
 load_mod_worldedit_shortcommands = false
 load_mod_xban2 = true
 load_mod_xcoal = true
+load_mod_xcompat = true
 load_mod_xdecor = true
 load_mod_youngtrees = false
