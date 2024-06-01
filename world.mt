@@ -269,6 +269,7 @@ load_mod_signs_bot = true
 load_mod_signs_lib = true
 load_mod_signs_road = true
 load_mod_smartshop = true
+load_mod_snippets = true
 load_mod_snowsong = true
 load_mod_spawn = true
 load_mod_stairs = true
