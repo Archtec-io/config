@@ -103,6 +103,7 @@ load_mod_ethereal = true
 load_mod_facade = true
 load_mod_fachwerk = true
 load_mod_fake_fire = true
+load_mod_fakelib = true
 load_mod_farming = true
 load_mod_ferns = false
 load_mod_fire = true
